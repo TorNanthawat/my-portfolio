@@ -16,7 +16,7 @@ export class ProjectsComponent {
       src: 'projects/mock-port.png',
       title: 'My Portfolio Website',
       detail: 'Angular 18 + CSS & JavaScript + Angular Material',
-      github: 'https://github.com/TorNanthawat',
+      github: 'https://github.com/TorNanthawat/my-portfolio',
       demo: '#',
     },
     {
