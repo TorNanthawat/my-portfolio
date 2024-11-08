@@ -1,0 +1,41 @@
+<mat-toolbar class="navbar-container" [ngClass]="{ scrolled: isScrolled }">
+  <a class="my-logo" href="#">
+    <img class="logo-1" src="tordev-fff.png" alt="logo" />
+    <img class="logo-2" src="tordev-blue.png" alt="logo" />
+  </a>
+
+  <!-- ส่วน navbar Mobile -->
+  <button class="menu-btn" mat-button (click)="showSidebar()">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <ul class="sidebar">
+    <li style="cursor: pointer" (click)="hideSidebar()">
+      <a><mat-icon>close</mat-icon></a>
+    </li>
+    <li><a routerLink="/home" (click)="toHome()">HOME</a></li>
+    <li><a routerLink="/skills" (click)="toSkills()">SKILLS</a></li>
+    <li><a routerLink="/projects" (click)="toProjects()">PROJECTS</a></li>
+    <li><a routerLink="/experience" (click)="toExperience()">EXPERIENCE</a></li>
+    <li><a routerLink="/contact" (click)="toContact()">CONTACT</a></li>
+  </ul>
+
+  <!-- ส่วน navbar Desktop -->
+  <div class="navbar-menu">
+    <button mat-button class="navbar-btn" (click)="toHome()" routerLink="/home" routerLinkActive="active">
+      HOME
+    </button>
+    <button mat-button class="navbar-btn" (click)="toSkills()" routerLinkActive="active">
+      SKILLS
+    </button>
+    <button mat-button class="navbar-btn" (click)="toProjects()" routerLinkActive="active">
+      PROJECTS
+    </button>
+    <button mat-button class="navbar-btn" (click)="toExperience()" routerLinkActive="active">
+      EXPERIENCE
+    </button>
+    <button mat-button class="navbar-btn" (click)="toContact()" routerLinkActive="active">
+      CONTACT
+    </button>
+  </div>
+</mat-toolbar>

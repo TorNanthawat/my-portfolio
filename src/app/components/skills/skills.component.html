@@ -1,0 +1,21 @@
+<div class="skills-container">
+  <div class="top-text">
+    <h1>SKILLS</h1>
+  </div>
+  <div class="skills-cards">
+    <h1>Front-end</h1>
+    <div class="front-skills">
+      <mat-card appearance="outlined" *ngFor="let skill of skillsList">
+        <img mat-card-image [src]="skill.src" [style]="skill.style" />
+        <mat-card-content>{{ skill.title }}</mat-card-content>
+      </mat-card>
+    </div>
+    <h1>Other skills</h1>
+    <div class="other-skills">
+      <mat-card appearance="outlined" *ngFor="let skill of otherskills">
+        <img mat-card-image [src]="skill.src" />
+        <mat-card-content>{{ skill.title }}</mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>
