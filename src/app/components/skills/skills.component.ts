@@ -47,6 +47,14 @@ export class SkillsComponent {
       src: 'logo/Bootstrap-logo.png',
       title: 'Bootstrap',
     },
+    {
+      src: 'logo/Svelte-logo.png',
+      title: 'Svelte',
+    },
+    {
+      src: 'logo/Tailwind-logo.png',
+      title: 'TailwindCSS',
+    },
   ];
 
   otherskills = [

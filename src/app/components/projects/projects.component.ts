@@ -27,18 +27,18 @@ export class ProjectsComponent {
       demo: 'https://nike-clone-tordev.netlify.app',
     },
     {
+      src: 'projects/mock-todo.jpg',
+      title: 'Todo List App',
+      detail: 'SvelteKit + CSS & TypeScript',
+      github: 'https://github.com/TorNanthawat/todo-list',
+      demo: 'https://todolist-app-tordev.netlify.app/',
+    },
+    {
       src: 'projects/mock-auth.png',
       title: 'AuthSystem App',
       detail: 'Angular 16 + CSS & TypeScript + Firebase',
       github: 'https://github.com/TorNanthawat/auth-app',
       demo: 'https://auth-app-tordev.netlify.app',
-    },
-    {
-      src: 'projects/mock-2b.png',
-      title: '2BHealthy (Bmi Calculator)',
-      detail: 'HTML + CSS & JavaScript + Bootstrap',
-      github: 'https://github.com/TorNanthawat/2BHealthy-Project',
-      demo: 'https://2bhealthy-tordev.netlify.app',
     },
   ];
 }
