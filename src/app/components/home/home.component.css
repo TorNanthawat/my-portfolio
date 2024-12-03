@@ -43,7 +43,7 @@
 }
 
 .text-1 {
-  color: rgb(0, 0, 0);
+  color: #fff;
   font-size: 20px;
 }
 
@@ -58,7 +58,7 @@
   text-align: center;
   font-size: 19px;
   font-weight: 300;
-  color: rgb(117, 117, 117);
+  color: #bcbcbc;
 }
 
 .bottom-home {

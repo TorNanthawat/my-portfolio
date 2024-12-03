@@ -70,7 +70,7 @@ mat-toolbar {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #2d3242e0;
   backdrop-filter: blur(10px);
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
   display: flex;

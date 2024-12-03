@@ -27,10 +27,10 @@
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+    text-shadow: 0 0 30px transparent;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #5bbbff, 0 0 40px #5bbbff;
+    text-shadow: 0 0 30px #5bbbff;
   }
 }
 
@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  background-color: #ffffff;
+  background-color: #2d3242;
   padding: 5% 10%;
   opacity: 0;
   transform: translateY(40px);
@@ -54,7 +54,7 @@
 .skills-cards h1 {
   font-size: 16px;
   font-weight: 500;
-  color: #333;
+  color: #ffffff;
   font-family: "Kanit", sans-serif;
 }
 
@@ -81,25 +81,25 @@ mat-card {
   justify-content: space-between;
   width: 130px;
   height: 190px;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-out;
   font-size: 14px;
   font-weight: 400;
   color: #333;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   border: 0px white;
+  cursor: default;
 }
 
 mat-card:hover {
   transform: scale(1.1);
   background-color: #0095ff;
-  box-shadow: 0 0 5px #5bbbff, 0 0 10px #b7e1ff, 0 0 25px #ffffff;
-  cursor: default;
   color: white;
   border: 2px solid white;
 }
 
 mat-card img {
   padding: 10%;
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 1));
 }
 
 @keyframes animateY {

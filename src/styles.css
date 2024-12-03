@@ -5,9 +5,10 @@ body {
   height: 100%;
 }
 body {
-  background-color: #ffffff;
+  background-color: #2d3242;
   margin: 0;
   font-family: "Kanit", sans-serif;
+  /* #09d1fc */
 }
 
 html {
