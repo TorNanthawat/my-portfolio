@@ -32,27 +32,31 @@ export class SkillsComponent {
       style: 'border-radius: 20px;',
     },
     {
-      src: 'logo/Angular-logo.png',
+      src: 'logo/Angular-logo.webp',
       title: 'Angular',
     },
     {
-      src: 'logo/Angular-Mat-logo.png',
+      src: 'logo/Angular-Mat-logo.webp',
       title: 'Angular Material',
     },
     {
-      src: 'logo/PrimeNG-logo.png',
+      src: 'logo/PrimeNG-logo.webp',
       title: 'PrimeNG',
     },
     {
-      src: 'logo/Bootstrap-logo.png',
+      src: 'logo/Bootstrap-logo.webp',
       title: 'Bootstrap',
     },
     {
-      src: 'logo/Svelte-logo.png',
+      src: 'logo/React-logo.webp',
+      title: 'React',
+    },
+    {
+      src: 'logo/Svelte-logo.webp',
       title: 'Svelte',
     },
     {
-      src: 'logo/Tailwind-logo.png',
+      src: 'logo/Tailwind-logo.webp',
       title: 'TailwindCSS',
     },
   ];
