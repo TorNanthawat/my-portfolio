@@ -36,6 +36,18 @@ export class SkillsComponent {
       title: 'Angular',
     },
     {
+      src: 'logo/React-logo.webp',
+      title: 'React',
+    },
+    {
+      src: 'logo/Svelte-logo.webp',
+      title: 'Svelte',
+    },
+    {
+      src: 'https://cdn.worldvectorlogo.com/logos/next-js.svg',
+      title: 'Next.js',
+    },
+    {
       src: 'logo/Angular-Mat-logo.webp',
       title: 'Angular Material',
     },
@@ -47,14 +59,7 @@ export class SkillsComponent {
       src: 'logo/Bootstrap-logo.webp',
       title: 'Bootstrap',
     },
-    {
-      src: 'logo/React-logo.webp',
-      title: 'React',
-    },
-    {
-      src: 'logo/Svelte-logo.webp',
-      title: 'Svelte',
-    },
+
     {
       src: 'logo/Tailwind-logo.webp',
       title: 'TailwindCSS',
