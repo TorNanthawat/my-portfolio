@@ -75,5 +75,17 @@ export class ProjectsComponent {
         'logo/JavaScript-logo.webp',
       ],
     },
+    {
+      src: 'projects/mockup-todo-next.webp',
+      title: 'My Next.js To-Do App',
+      detail: 'Next.js 15 + TailwindCSS & TypeScript',
+      github: 'https://github.com/TorNanthawat/todo-app-nextjs',
+      demo: 'https://todo-app-nextjs-tordev.vercel.app/',
+      logos: [
+        'https://cdn.worldvectorlogo.com/logos/next-js.svg',
+        'logo/Tailwind-logo.webp',
+        'https://cdn.worldvectorlogo.com/logos/typescript.svg',
+      ],
+    },
   ];
 }
